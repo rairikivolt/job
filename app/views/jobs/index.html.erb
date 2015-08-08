@@ -27,7 +27,7 @@
         <td><%= job.delivered %></td>
         <td><%= job.ar %></td>
         <td><%= job.ap %></td>
-        <td><%= job.completed? ? raw('&#x2611') : raw('&#x2610') %></td>
+        <td><%= job.completed? ? raw('&#x2713') : "" %></td>
         <td><%= link_to 'Show', job %></td>
         <td><%= link_to 'Edit', edit_job_path(job) %></td>
         <td><%= link_to 'Destroy', job, method: :delete, data: { confirm: 'Are you sure?' } %></td>
