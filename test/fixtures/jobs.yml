@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  job: MyString
+  received_order: 2015-08-08
+  gave_order: 2015-08-08
+  shipped: 2015-08-08
+  delivered: 2015-08-08
+  ar: 2015-08-08
+  ap: 2015-08-08
+  completed: false
+
+two:
+  job: MyString
+  received_order: 2015-08-08
+  gave_order: 2015-08-08
+  shipped: 2015-08-08
+  delivered: 2015-08-08
+  ar: 2015-08-08
+  ap: 2015-08-08
+  completed: false

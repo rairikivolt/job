@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Job:</strong>
+  <%= @job.job %>
+</p>
+
+<p>
+  <strong>Received order:</strong>
+  <%= @job.received_order %>
+</p>
+
+<p>
+  <strong>Gave order:</strong>
+  <%= @job.gave_order %>
+</p>
+
+<p>
+  <strong>Shipped:</strong>
+  <%= @job.shipped %>
+</p>
+
+<p>
+  <strong>Delivered:</strong>
+  <%= @job.delivered %>
+</p>
+
+<p>
+  <strong>Ar:</strong>
+  <%= @job.ar %>
+</p>
+
+<p>
+  <strong>Ap:</strong>
+  <%= @job.ap %>
+</p>
+
+<p>
+  <strong>Completed:</strong>
+  <%= @job.completed %>
+</p>
+
+<%= link_to 'Edit', edit_job_path(@job) %> |
+<%= link_to 'Back', jobs_path %>
